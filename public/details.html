@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <script defer src="https://pro.fontawesome.com/releases/v5.10.0/js/all.js"
+        integrity="sha384-G/ZR3ntz68JZrH4pfPJyRbjW+c0+ojii5f+GYiYwldYU69A+Ejat6yIfLSxljXxD" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.1.8/css/lightgallery-bundle.css">
+    <link rel="stylesheet" href="src/css/styles.css" type="text/css" media="all">
+    <title>Fashionism</title>
+</head>
+
+<body class="font-inter space-y-12">
+    <nav class="sticky top-0 z-50 bg-primary px-16 py-6 w-full">
+        <div class="flex justify-between items-center">
+            <a href="">
+                <img src="assets/fashionism-logo-grey.png" class="w-64" alt="Fashionism Logo">
+            </a>
+            <div>
+                <ul class="flex flex-row text-white space-x-12 text-lg font-semibold mr-14">
+                    <li><a href="">MEN</a></li>
+                    <li><a href="">WOMEN</a></li>
+                    <li><a href="">KIDS</a></li>
+                    <li><a href="">ABOUT</a></li>
+                </ul>
+            </div>
+            <div class="flex flex-row text-white space-x-12">
+                <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd"
+                            d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+                            clip-rule="evenodd" />
+                    </svg>
+                </a>
+                <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd"
+                            d="M10 2a4 4 0 00-4 4v1H5a1 1 0 00-.994.89l-1 9A1 1 0 004 18h12a1 1 0 00.994-1.11l-1-9A1 1 0 0015 7h-1V6a4 4 0 00-4-4zm2 5V6a2 2 0 10-4 0v1h4zm-6 3a1 1 0 112 0 1 1 0 01-2 0zm7-1a1 1 0 100 2 1 1 0 000-2z"
+                            clip-rule="evenodd" />
+                    </svg>
+                </a>
+                <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+                            clip-rule="evenodd" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="relative space-y-14">
+        <section class="container mx-auto text-primary">
+            <div class="flex flex-row gap-10">
+                <div class="w-2/3 grid grid-cols-2 grid-flow-row gap-8" id="gallery-container">
+                    <a data-lg-size="3000-4000" data-src="assets/JAMIR-V4-Y5-01 1.png">
+                        <img class="rounded-md shadow-md" src="assets/JAMIR-V4-Y5-01 1.png" alt="">
+                    </a>
+                    <a data-lg-size="3000-4000" data-src="assets/JAMIR-V4-Y5-01.jpg">
+                        <img class="rounded-md shadow-md" src="assets/JAMIR-V4-Y5-01.jpg" alt="">
+                    </a>
+                    <a data-lg-size="3000-4000" data-src="assets/JAMIR-V4-Y5-01_2.jpg">
+                        <img class="rounded-md shadow-md" src="assets/JAMIR-V4-Y5-01_2.jpg" alt="">
+                    </a>
+                    <a data-lg-size="3000-4000" data-src="assets/JAMIR-V4-Y5-01_3.jpg">
+                        <img class="rounded-md shadow-md" src="assets/JAMIR-V4-Y5-01_3.jpg" alt="">
+                    </a>
+                </div>
+                <div class="w-1/3 space-y-4">
+                    <h1 class="text-5xl font-bold">Jamir</h1>
+                    <span class="text-sm">Category: T-Shirt, Men</span>
+                    <p class="leading-snug text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Eveniet
+                        error
+                        minus magnam quisquam
+                        aperiam perspiciatis ut nam sed? Quidem, debitis.</p>
+                    <p class="text-xl font-medium">Price: IDR 189,000</p>
+                    <div>
+                        <button
+                            class="px-5 py-2 bg-primary rounded text-white text-lg font-semibold shadow-md hover:shadow-none transition duration-300">Add
+                            To Cart</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-primary mt-20">
+        <div class="container flex flex-row mx-auto py-12 justify-between">
+            <div class="text-white space-y-6">
+                <a href="" class="flex flex-row items-center space-x-3 text-3xl">
+                    <i class="fab fa-facebook-square"></i>
+                    <p class="text-lg font-medium">Facebook</p>
+                </a>
+                <a href="" class="flex flex-row items-center space-x-3 text-3xl">
+                    <i class="fab fa-instagram"></i>
+                    <p class="text-lg font-medium">Instagram</p>
+                </a>
+                <a href="" class="flex flex-row items-center space-x-3 text-3xl">
+                    <i class="fab fa-twitter"></i>
+                    <p class="text-lg font-medium">Twitter</p>
+                </a>
+                <a href="" class="flex flex-row items-center space-x-3 text-3xl">
+                    <i class="fab fa-whatsapp"></i>
+                    <p class="text-lg font-medium">Whatsapp</p>
+                </a>
+            </div>
+            <div class="flex flex-col space-y-6 text-white text-lg font-medium">
+                <a href="">Help & FAQ</a>
+                <a href="">Sitemap</a>
+                <a href="">Contact Us</a>
+                <a href="">About</a>
+            </div>
+            <div class="flex flex-col text-white">
+                <h3 class="text-3xl font-semibold">Be First!</h3>
+                <p class="text-lg">Sign up for email alerts for exclusive offers and first access to product</p>
+                <form action="post" class="mt-3">
+                    <input type="email" name="inputEmail" id="inputEmail"
+                        class="text-primary w-3/5 rounded-md border-sky-800 shadow-sm focus:border-blue-500 focus:ring focus:ring-blue-400 focus:ring-opacity-50"
+                        placeholder="example@email.com">
+                    <button type="submit" class="ml-2 px-4 py-2 bg-sky-700 rounded text-lg">Submit</button>
+                </form>
+            </div>
+        </div>
+        <section class="py-0.5 text-center text-primary bg-white">
+            Copyright | Raihan Adam 2021
+        </section>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.1.8/lightgallery.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.1.8/plugins/zoom/lg-zoom.umd.js"></script>
+    <script src="src/js/lGallery.js"></script>
+</body>
+
+</html>
